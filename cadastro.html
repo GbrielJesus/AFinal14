@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Chef - Cadastro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="cadastro.js"></script>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="icon" href="img/mc.jfif">
+</head>
+
+<body>
+    <header>
+        <h2 id="masterchef">MASTER CHEF</h2>
+
+        <div>
+            <a href="index.html">INICIO</a>
+            <a href="Receitas.html">RECEITAS</a>
+            <a href="TRABALHOS.html">TRABALHOS</a>
+            <a href="#sobre">SOBRE</a>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <h2>Para concorrer a uma vaga no programa leia com atenção as regras e preencha os campos abaixo</h2>
+
+            <h3>REGRAS DE PARTICIPAÇÃO E INSTRUÇÕES</h3>
+            <p>
+                1. Você deve ser maior de 18 anos. <br>
+                2. Responda a todas as perguntas com honestidade.<br>
+                3. Todos os participantes do MasterChef Amadores deverão ser amadores.<br>
+                4. O formulário deve ser totalmente preenchido. Formulário incompleto será desclassificado.<br>
+                5. O envio da foto e do vídeo é imprescindível para a sua inscrição. Fichas sem foto e/ou sem vídeo não serão aceitas.<br>
+                6. Você deverá se comprometer com todos os dias de filmagem.<br>
+                7. As gravações estão previstas para os meses de março a junho de 2023, a maioria na cidade de São Bernardo do Campo (SP), mas as datas podem mudar.<br>
+            </p>
+        </div>
+
+        <div class="formulario">            
+            <label for="nome">Nome:</label>
+            <input class="forms" type="text" id="nome" name="nome">
+            <label for="cidade">Cidade:</label>
+            <input class="forms" type="text" id="cidade" name="cidade">
+            <label for="estado">Estado:</label>
+            <input class="forms" type="text" id="estado" name="estado">
+            <label for="cep">CEP:</label>
+            <input class="forms" type="text" id="cep" name="cep">
+            <label for="logradouro">Logradouro:</label>
+            <input class="forms" type="text" id="logradouro" name="logradouro">
+            <label for="email">E-mail:</label>
+            <input class="forms" type="text" id="email" name="email">
+            <label for="confirmarEmail">Confirmar E-mail:</label>
+            <input class="forms" type="text" id="confirmarEmail" name="confirmarEmail">
+            <label for="senha">Senha:</label>
+            <input class="senha" type="password" id="senha" name="senha">
+            <label for="confirmarSenha">Confirmar Senha:</label>
+            <input class="senha" type="password" id="confirmarSenha" name="confirmarSenha">
+            <button id="mostrar-senha">Mostrar Senha</button>   
+        </div>
+        
+        <button id="cadastrar">CADASTRAR</button>
+
+
+
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>

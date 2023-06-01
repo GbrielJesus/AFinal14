@@ -1,0 +1,94 @@
+body {
+    background-image: url('masterchef.jpg');
+    background-size: cover;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 60px; /* Definindo a altura da barra de menu */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Adiciona um efeito de sombra ao contorno */
+}
+
+nav ul li a:active {
+    color: red; /* Define a cor do texto como vermelho quando clicado */
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Ajuste a largura máxima conforme necessário */
+    width: 90%;
+    flex: 1;
+}
+
+.centered {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.card-image {
+    width: 100px; /* Ajuste a largura da imagem conforme necessário */
+    height: auto;
+    margin-right: 20px;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Chef</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="inicial.js"></script>
+    <link rel="stylesheet" href="inicial.css">
+    <link rel="icon" href="img/mc.jfif">
+
+
+    <style>
+        h2{
+            font-size: 30px;
+            text-shadow: 2px 5px 5px #686868;
+        }p{
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="corpo">
+        <header>
+            <h2 id="masterchef">MASTER CHEF</h2>
+
+            <div class="nav">
+                <a href="#inicio">INICIO</a>
+                <a href="#receitas">RECEITAS</a>
+                <a href="#trabalhos">TRABALHOS</a>
+                <a href="#sobre">SOBRE</a>
+                <a href="#contatos">CONTATOS</a>       
+            </div>
+
+            <div class="teste">
+                <h3>Faça a verificação do capchat</h3>        
+                <div>
+                    <label for="check"><input type="checkbox" name="check" id="box">Não sou um robô</label>
+                </div>
+
+                <div id="show">
+                    <h3 >Escolha o bolo de <h3 id="bolo"></h3> </h3>
+                    
+                
+                    
+                    <div>
+                        <img id="morango" class="escolhas" src="img/morango.jfif" width="120px" height="120px" >
+                        <img id="chocolate" class="escolhas" src="img/chocolate.jfif" width="120px" height="120px">
+                        <img id="limao" class="escolhas" src="img/limão.jfif" width="120px" height="120px">
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+
+        <div class="conteudo">
+            <main>
+                <p>MasterChef Brasil é um reality culinário brasileiro, do gênero competição, exibido pela Band, baseado na franquia original de mesmo nome exibido pela BBC no Reino Unido. O programa é apresentado por Ana Paula Padrão, a banca de jurados é composta pelos chefs Érick Jacquin, Helena Rizzo, que substituiu Paola Carosella a partir da edição de 2021, e Rodrigo Oliveira, que substituiu Henrique Fogaça a partir da edição de 2023.</p>
+                
+                <div>
+                    <img class="imagens" src="img/comida3.jfif" width="200px" height="200px">
+                    <img class="imagens" src="img/comida7.jfif" width="200px" height="200px">
+                    <img class="imagens" src="img/comida2.jfif" width="200px" height="200px">
+                </div>
+                <p>A primeira temporada estreou em 2 de setembro de 2014 e, até dezembro de 2021, oito temporadas já foram realizadas.O programa é transmitido em Portugal pelo canal SIC Mulher e mais de 49 países, incluindo todos os países da América Latina.</p>
+
+            </main>
+
+            <div id="anuncio">
+                <h3>QUERO PARTICIPAR DO PROGRAMA !</h3>
+                <a class="btAnuncio" href="cadastro.html">CADASTRAR</a>
+            </div>
+
+            
+            <div class="receitas">
+
+                <h2 id="receitas">RECEITAS</h2>
+
+                <p>Aqui separamos algumas receitas para você que já cozinha e também para você que quer aprender.</p>
+                
+                <div>
+                    <img class="imagens" src="img/comida1.jfif" width="200px" height="200px">
+                    <img class="imagens" src="img/comida2.jfif" width="200px" height="200px">
+                    <img class="imagens" src="img/comida3.jfif" width="200px" height="200px">
+
+                </div>
+                <a class="link" href="Receitas.html">Ver mais sobre receitas</a>
+
+            </div>
+
+            <div class="trabalhos">
+
+                <h2 id="trabalhos">TRABALHOS</h2>
+
+                <p>Aqui você pode conhecer alguns dos nossos trabalhos</p>
+                <div>
+                    <img class="imagens" src="img/comida4.jfif" width="200px" height="200px">
+                    <img class="imagens" src="img/comida5.jfif" width="200px" height="200px">
+                    <img class="imagens" src="img/comida6.jfif" width="200px" height="200px">
+                </div>
+
+                <a class="link" href="TRABALHOS.html">Ver mais sobre os nossos trabalhos</a>
+            </div>
+
+            <div class="sobre">
+
+                <h2 id="sobre">SOBRE</h2>
+
+                <p>Saiba mais sobre a história do MasterChef    </p>
+                <div>
+                    <img class="imagens" src="img/comida7.jfif" width="200px" height="200px">
+                    <img class="imagens" src="img/comida8.jfif" width="200px" height="200px">
+                    <img class="imagens" src="img/comida1.jfif" width="200px" height="200px">
+                </div>
+
+                <a class="link" href="sobre.html">Ver mais sobre nossa história</a>
+            </div>
+
+            <footer id="contatos">
+                <div id="texto">
+                    <h2>CONTATOS</h2>
+
+                    <div>
+                        <ul><a href="https://www.instagram.com/masterchefbr/?hl=pt-br">Instagram</a></ul>
+                        <ul><a href="https://www.facebook.com/masterchefbr/?locale=pt_BR">Facebook</a></ul>
+                        <ul><a href="https://twitter.com/masterchefbr/">Twitter</a></ul>
+                    </div>
+                    <div>
+                        <p> Para receber noticias sobre o masterchef e receitas especiais faça seu cadastro abaixo:</p>
+                    </div>
+                </div>
+                <div class="formulario">   
+                    <div class="form">
+                        <label for="nome">Nome:</label>
+                        <input class="forms" type="text" id="nome" name="nome">
+                        <label for="email">E-mail:</label>
+                        <input class="forms" type="text" id="email" name="email">      
+                    </div>
+        
+                    <div class="form">
+                        <label for="confirmarEmail">Confirmar E-mail:</label>
+                        <input class="forms" type="text" id="confirmarEmail" name="confirmarEmail"> 
+                        <label for="senha">Senha:</label>
+                        <input class="senha" type="password" id="senha" name="senha">
+                    </div>
+        
+                    <div class="form">
+                        <label for="confirmarSenha">Confirmar Senha:</label><br>
+                        <input class="senha" type="password" id="confirmarSenha" name="confirmarSenha">
+                        <button id="mostrar-senha">Mostrar Senha</button>
+        
+                    </div>
+                
+                    <div>
+                        <button id="cadastrar">CADASTRAR</button>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
